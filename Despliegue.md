@@ -82,7 +82,7 @@ Dado que Heroku maneja el código de despliegue utilizando un repositorio de git
 
 <h3>Realizar Commit</h3>
 <p>Se debe crear un commit que incluya todos los archivos referentes al estado actual del proyecto, incluidos los últimos cambios realizados. Esto se logra con los siguientes comandos:</p>
-<img src="https://user-images.githubusercontent.com/111609882/198695853-2f88d9f9-d922-48da-a711-804c761637b6.png">
+<img src="https://user-images.githubusercontent.com/111609882/198725777-bb5497c1-bf9e-48dc-a166-49c9fd3aedc3.png">
 
 <h3>Realizar Despliegue</h3>
 En este punto se puede completar el despliegue del componente, para esto únicamente bastará con subir el último commit al repositorio remoto de heroku. Esto se logra con el siguiente comando:
@@ -94,6 +94,6 @@ Una vez se ha realizado el despliegue de la aplicación se puede acceder a esta 
 <img src="https://user-images.githubusercontent.com/111609882/198693415-acd93a3c-9acc-4dc1-a292-b99c4f5d3c22.png">
 
 Esto abrirá la página principal del componente de front-end de pokedex:
-
+<img src="https://user-images.githubusercontent.com/111609882/198725994-ffa000bd-dc46-492f-8984-7a8801cb533e.png">
 
 
