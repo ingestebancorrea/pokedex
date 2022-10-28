@@ -42,8 +42,10 @@ Básicamente con ayuda de los paquetes instalados se crea un servidor a partir d
 Ahora que se tiene el script para poder crear el servidor, se debe indicar al proyecto que al iniciarse ejecute el script, esto se logra modificando la sección de scripts del archivo package.json del proyecto. Allí, se debe añadir la instrucción “start”: “node server.js”, de la siguiente forma:
 ![image](https://user-images.githubusercontent.com/111609882/198724568-f50f0462-925e-46b4-bb0d-6cfb7543c7ac.png)
 
+<br>
 Por otro lado también se debe agregar en package.json la versión de node de la siguiente forma:
-![image](https://user-images.githubusercontent.com/111609882/198724719-1ddb7704-627c-45f8-9e31-1a1b13e9d062.png)
+![image](https://user-images.githubusercontent.com/111609882/198724972-5aece677-66aa-4f67-bbd5-585c293208d4.png)
+
 <br>
 
 Al momento de realizar el despliegue Heroku ejecutará este comando y se creará el servidor.
