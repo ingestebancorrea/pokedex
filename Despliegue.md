@@ -71,6 +71,7 @@ Una vez logueado, debe salir el siguiente mensaje en el navegador y la terminal 
 
 <h3>Inicializar Repositorio</h3>
 Dado que Heroku maneja el código de despliegue utilizando un repositorio de git, se debe tener uno en el componente.
+<img src="https://user-images.githubusercontent.com/111609882/198707210-b2e7bac7-db9b-4b7b-92e4-40a3c81500e1.png">
 
 <h3>Agregar Remoto al Repositorio</h3>
 <p>El código fuente del componente será subido a un repositorio remoto administrado por Heroku, desde el cual se realizará el despliegue, para agregar este repositorio remoto al repositorio local se debe ejecutar el siguiente comando:</p>
