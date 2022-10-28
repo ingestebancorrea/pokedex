@@ -32,7 +32,7 @@ El servidor se creará a través de un script, por cual se debe crear un archivo
 <br>
 
 El archivo server.js contendra lo siguiente:
-![image](https://user-images.githubusercontent.com/111609882/198686730-8c54549e-e46f-4b77-ac69-9dc5c503ee79.png)
+![image](https://user-images.githubusercontent.com/111609882/198689797-02227444-00d7-489f-9992-8dc707ca9c98.png)
 
 Básicamente con ayuda de los paquetes instalados se crea un servidor a partir de algunos parámetros, como el puerto y la raíz del proyecto.
 
