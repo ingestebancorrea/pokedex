@@ -28,7 +28,7 @@ npm install express serve-static --save
 <h3>Crear Server</h3>
 
 El servidor se creará a través de un script, por cual se debe crear un archivo llamado server.js el cual estará en la raíz del proyecto.
-![image](https://user-images.githubusercontent.com/111609882/198686168-e38616cc-bcb4-40c8-b57c-9c53e0e1bc92.png)
+![image](https://user-images.githubusercontent.com/111609882/198724140-52e88afa-3fca-412e-8f9f-bd13115b09b9.png)
 <br>
 
 El archivo server.js contendra lo siguiente:
