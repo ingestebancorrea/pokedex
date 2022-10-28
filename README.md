@@ -1,4 +1,4 @@
-<h1 style="text-align:center">Creación de cuenta en Heroku</h1>
+<h1>Creación de cuenta en Heroku</h1>
 
 
 En primer lugar, debemos ubicarnos en la página principal de Heroku en el siguiente enlace https://www.heroku.com
