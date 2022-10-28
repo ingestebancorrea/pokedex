@@ -44,7 +44,7 @@ Ahora que se tiene el script para poder crear el servidor, se debe indicar al pr
 
 <br>
 Por otro lado también se debe agregar en package.json la versión de node de la siguiente forma:
-![image](https://user-images.githubusercontent.com/111609882/198724972-5aece677-66aa-4f67-bbd5-585c293208d4.png)
+<img src="https://user-images.githubusercontent.com/111609882/198724972-5aece677-66aa-4f67-bbd5-585c293208d4.png">
 
 <br>
 
