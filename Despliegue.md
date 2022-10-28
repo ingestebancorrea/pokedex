@@ -82,13 +82,12 @@ Dado que Heroku maneja el código de despliegue utilizando un repositorio de git
 
 <h3>Realizar Despliegue</h3>
 En este punto se puede completar el despliegue del componente, para esto únicamente bastará con subir el último commit al repositorio remoto de heroku. Esto se logra con el siguiente comando:
-![image](https://user-images.githubusercontent.com/111609882/198693017-b188a5a9-b91d-4644-8ff5-7d65fb725c4f.png)
+<img src="https://user-images.githubusercontent.com/111609882/198693017-b188a5a9-b91d-4644-8ff5-7d65fb725c4f.png">
 <br>
 
 <h2>Acceder a la Aplicación</h2>
 Una vez se ha realizado el despliegue de la aplicación se puede acceder a esta a través de su respectiva URL. Para ello, se debe dar click en el botón Open app, en el dashboard de Heroku:
-![image](https://user-images.githubusercontent.com/111609882/198693415-acd93a3c-9acc-4dc1-a292-b99c4f5d3c22.png)
-<br>
+<img src="https://user-images.githubusercontent.com/111609882/198693415-acd93a3c-9acc-4dc1-a292-b99c4f5d3c22.png">
 
 Esto abrirá la página principal del componente de front-end de pokedex:
 
