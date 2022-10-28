@@ -55,5 +55,7 @@ heroku login
 
 Esto abrirá una ventana en el navegador que permitirá loguearse:
 
+<h3>Inicializar Repositorio</h3>
+Dado que Heroku maneja el código de despliegue utilizando un repositorio de git, se debe tener uno en el componente.
 
 
