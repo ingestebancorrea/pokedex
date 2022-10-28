@@ -58,8 +58,30 @@ heroku login
 
 Esto abrirá una ventana en el navegador que permitirá loguearse:
 ![image](https://user-images.githubusercontent.com/111609882/198691748-e197fa04-eaff-4cd1-8d7b-db910a95b4d2.png)
+Una vez logueado, debe salir el siguiente mensaje en el navegador y la terminal se debe actualizar:
+
+![image](https://user-images.githubusercontent.com/111609882/198691951-0250ac3c-d199-4bfa-b0f4-0fbb20724ef3.png)
 
 <h3>Inicializar Repositorio</h3>
 Dado que Heroku maneja el código de despliegue utilizando un repositorio de git, se debe tener uno en el componente.
+
+<h3>Agregar Remoto al Repositorio</h3>
+El código fuente del componente será subido a un repositorio remoto administrado por Heroku, desde el cual se realizará el despliegue, para agregar este repositorio remoto al repositorio local se debe ejecutar el siguiente comando:
+![image](https://user-images.githubusercontent.com/111609882/198692465-b9363b46-5787-4dd0-93b7-d247d5ac69e0.png)
+
+<h3>Realizar Commit</h3>
+Se debe crear un commit que incluya todos los archivos referentes al estado actual del proyecto, incluidos los últimos cambios realizados. Esto se logra con los siguientes comandos:
+![image](https://user-images.githubusercontent.com/111609882/198692843-efc3ee0f-64ec-40c1-ba5a-74eb2929d7c1.png)
+
+<h3>Realizar Despliegue</h3>
+En este punto se puede completar el despliegue del componente, para esto únicamente bastará con subir el último commit al repositorio remoto de heroku. Esto se logra con el siguiente comando:
+![image](https://user-images.githubusercontent.com/111609882/198693017-b188a5a9-b91d-4644-8ff5-7d65fb725c4f.png)
+
+<h2>Acceder a la Aplicación</h2>
+Una vez se ha realizado el despliegue de la aplicación se puede acceder a esta a través de su respectiva URL. Para ello, se debe dar click en el botón Open app, en el dashboard de Heroku:
+![image](https://user-images.githubusercontent.com/111609882/198693415-acd93a3c-9acc-4dc1-a292-b99c4f5d3c22.png)
+
+Esto abrirá la página principal del componente de front-end de pokedex:
+
 
 
