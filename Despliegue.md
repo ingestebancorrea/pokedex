@@ -47,7 +47,7 @@ Al momento de realizar el despliegue Heroku ejecutará este comando y se creará
 
 Una vez se ha modificado el código se puede realizar el proceso de despliegue con Heroku, esto se realiza ejecutando algunos comandos desde una consola en la raíz del proyecto, estos comandos básicamente permiten conectarse con Heroku a través de su CLI anteriores) y con ayuda de git, indicar cual es la versión del proyecto que se desea desplegar.
 
-<h2>Conectarse a Heroku</h2>
+<h3>Conectarse a Heroku</h3>
 
 Para poder establecer contacto con Heroku se debe loguear con ayuda de su CLI, esto se logra ejecutando el siguiente comando en un cmd, bash o terminal y presionando la tecla espacio:
 
