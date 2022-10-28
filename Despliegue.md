@@ -36,11 +36,14 @@ El archivo server.js contendra lo siguiente:
 
 Básicamente con ayuda de los paquetes instalados se crea un servidor a partir de algunos parámetros, como el puerto y la raíz del proyecto.
 
+<br>
+
 <h3>Ejecutar Script</h3>
 
 Ahora que se tiene el script para poder crear el servidor, se debe indicar al proyecto que al iniciarse ejecute el script, esto se logra modificando la sección de scripts del archivo package.json del proyecto. Allí, se debe añadir la instrucción “start”: “node server.js”, de la siguiente forma:
 ![image](https://user-images.githubusercontent.com/111609882/198691446-162d5968-129b-41ca-bfb0-1c676c7ca7e5.png)
 
+<br>
 
 Al momento de realizar el despliegue Heroku ejecutará este comando y se creará el servidor.
 
@@ -55,12 +58,16 @@ Para poder establecer contacto con Heroku se debe loguear con ayuda de su CLI, e
 heroku login
 ![image](https://user-images.githubusercontent.com/111609882/198691789-88493f80-9e7e-43f0-b3c8-9ca3e5aee7a9.png)
 
+<br>
 
 Esto abrirá una ventana en el navegador que permitirá loguearse:
 ![image](https://user-images.githubusercontent.com/111609882/198691748-e197fa04-eaff-4cd1-8d7b-db910a95b4d2.png)
+<br>
+
 Una vez logueado, debe salir el siguiente mensaje en el navegador y la terminal se debe actualizar:
 
 ![image](https://user-images.githubusercontent.com/111609882/198691951-0250ac3c-d199-4bfa-b0f4-0fbb20724ef3.png)
+<br>
 
 <h3>Inicializar Repositorio</h3>
 Dado que Heroku maneja el código de despliegue utilizando un repositorio de git, se debe tener uno en el componente.
@@ -69,17 +76,22 @@ Dado que Heroku maneja el código de despliegue utilizando un repositorio de git
 El código fuente del componente será subido a un repositorio remoto administrado por Heroku, desde el cual se realizará el despliegue, para agregar este repositorio remoto al repositorio local se debe ejecutar el siguiente comando:
 ![image](https://user-images.githubusercontent.com/111609882/198692465-b9363b46-5787-4dd0-93b7-d247d5ac69e0.png)
 
+<br>
+
 <h3>Realizar Commit</h3>
 Se debe crear un commit que incluya todos los archivos referentes al estado actual del proyecto, incluidos los últimos cambios realizados. Esto se logra con los siguientes comandos:
 ![image](https://user-images.githubusercontent.com/111609882/198692843-efc3ee0f-64ec-40c1-ba5a-74eb2929d7c1.png)
+<br>
 
 <h3>Realizar Despliegue</h3>
 En este punto se puede completar el despliegue del componente, para esto únicamente bastará con subir el último commit al repositorio remoto de heroku. Esto se logra con el siguiente comando:
 ![image](https://user-images.githubusercontent.com/111609882/198693017-b188a5a9-b91d-4644-8ff5-7d65fb725c4f.png)
+<br>
 
 <h2>Acceder a la Aplicación</h2>
 Una vez se ha realizado el despliegue de la aplicación se puede acceder a esta a través de su respectiva URL. Para ello, se debe dar click en el botón Open app, en el dashboard de Heroku:
 ![image](https://user-images.githubusercontent.com/111609882/198693415-acd93a3c-9acc-4dc1-a292-b99c4f5d3c22.png)
+<br>
 
 Esto abrirá la página principal del componente de front-end de pokedex:
 
