@@ -53,8 +53,11 @@ Una vez se ha modificado el código se puede realizar el proceso de despliegue c
 Para poder establecer contacto con Heroku se debe loguear con ayuda de su CLI, esto se logra ejecutando el siguiente comando en un cmd, bash o terminal y presionando la tecla espacio:
 
 heroku login
+![image](https://user-images.githubusercontent.com/111609882/198691789-88493f80-9e7e-43f0-b3c8-9ca3e5aee7a9.png)
+
 
 Esto abrirá una ventana en el navegador que permitirá loguearse:
+![image](https://user-images.githubusercontent.com/111609882/198691748-e197fa04-eaff-4cd1-8d7b-db910a95b4d2.png)
 
 <h3>Inicializar Repositorio</h3>
 Dado que Heroku maneja el código de despliegue utilizando un repositorio de git, se debe tener uno en el componente.
